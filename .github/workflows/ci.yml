@@ -32,3 +32,5 @@ jobs:
         token: ${{ secrets.WOKWI_CLI_TOKEN }}
         path: /
         expect_text: 'Teste'
+      env:
+        WOKWI_CLI_TOKEN: ${{ secrets.WOKWI_CLI_TOKEN }}
