@@ -31,4 +31,5 @@ jobs:
       with:
         token: ${{ secrets.WOKWI_CLI_TOKEN }}
         path: ./
+        diagram_file: diagram.json
         expect_text: 'Teste'
