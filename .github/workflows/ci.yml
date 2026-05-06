@@ -29,7 +29,7 @@ jobs:
     - name: Test with Wokwi
       uses: wokwi/wokwi-ci-action@v1
       env:
-        WOKWI_CLI_TOKEN: ${{ secrets.WOKWI_CLI_TOKEN }}
+        WOKWI_CLI_TOKEN: ${{ secrets.WOKWI_CLI_TOKEN}}
       with:
         path: ./
         diagram_file: diagram.json
