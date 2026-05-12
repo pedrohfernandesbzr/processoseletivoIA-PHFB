@@ -23,8 +23,7 @@
       "top": 102.2,
       "left": -163.2,
       "attrs": { "color": "yellow", "xray": "1" }
-    },
-    { "type": "wokwi-ds1307", "id": "rtc1", "top": 138.6, "left": -297.5, "attrs": {} }
+    }
   ],
   "connections": [
     [ "esp:TX", "$serialMonitor:RX", "", [] ],
