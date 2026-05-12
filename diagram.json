@@ -17,8 +17,6 @@
       "left": -163.2,
       "attrs": { "color": "green", "xray": "1" }
     },
-    { "type": "wokwi-dht22", "id": "dht1", "top": -114.9, "left": -111, "attrs": {} },
-    { "type": "wokwi-dht22", "id": "dht2", "top": 0.3, "left": 196.2, "attrs": {} },
     {
       "type": "wokwi-pushbutton",
       "id": "btn2",
@@ -26,16 +24,7 @@
       "left": -163.2,
       "attrs": { "color": "yellow", "xray": "1" }
     },
-    { "type": "board-bmp180", "id": "bmp1", "top": -90.56, "left": 173.06, "attrs": {} },
-    { "type": "board-bmp180", "id": "bmp2", "top": -80.96, "left": -191.74, "attrs": {} },
-    { "type": "wokwi-ds1307", "id": "rtc1", "top": 138.6, "left": -297.5, "attrs": {} },
-    {
-      "type": "board-ssd1306",
-      "id": "oled1",
-      "top": 41.54,
-      "left": -306.97,
-      "attrs": { "i2cAddress": "0x3c" }
-    }
+    { "type": "wokwi-ds1307", "id": "rtc1", "top": 138.6, "left": -297.5, "attrs": {} }
   ],
   "connections": [
     [ "esp:TX", "$serialMonitor:RX", "", [] ],
